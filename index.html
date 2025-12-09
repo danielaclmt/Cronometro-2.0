@@ -1,7 +1,5 @@
-      <div class="logo">
-    <img src="Logo TEIDESAT - Blanco sobre transparente.png" alt="Logo TEIDESAT">
-</div>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -176,12 +174,6 @@
             background: rgba(255, 255, 255, 0.1);
         }
 
-        .email-opcional {
-            font-size: 0.85em;
-            color: #999;
-            font-style: italic;
-        }
-
         .btn-guardar {
             background: #00ff88;
             color: #000000;
@@ -293,7 +285,7 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAEsCAYAAAA1u0HIAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAADEcSURBVHgB7d0JnBxlnT/wX91z3zM5JpkkJCEJlxCuAAGCgIAIKKACiiAoKoigyq6u7q6u6+quq+uuisqq6C6HgCgoiyCgXHJfCUcgZBJCyD1Jzpn76qve/1NdM5lMZnqmu6u7qvu3n88kk8z0q+rqqvr2877P+zyKAgAATpvRVLMjv9BXaC/Mjxf64oX+vngijBeErW+iEI+Hi0Kwf1o8Hi4O24PFYXuo2F8s9peE7f7ioKKo/UrhgFLU+xU1N6AY/UqiL6ikehWzV1H6ekKiZ4/S1bNH6eh5WenY85LSvvtlZdeuTUrbjk1KWFEUAACy0qBB7+3LN/qKQ/l5XtyXb/TX5Xv9dXlejp+XExOFvpx4UVfcKOrMDSt5YUXL84UVLZYbVrQ8v6Ll+sNanoEUOwBABhkw6B09eXq/v1jv9Rfqg77CQKGvwOsvzPMXhPKUWH4oNxwqiBWGC2LBgkhBtCBcEC2MFoYVpxbPD+crheFcJRbMV6L5AUUJ+BXD8CuqoSqAU2SoYZ8JAABMgRGDvn1HvrG7szAfKDT6fYV+f2Gh2Vdk9BeZhX5fkRkoyosWRwujxVE1Wmo5raiKpQM9DQbS/R4lHDBkN5GiaDm+8HRVi6laXA34c6K+3Jig53qiPm+PMT2wXensX6Fs670gdGjPozsP7H1MifUqwMyCBh0AAJydG5auv0E7Nf4fmx8t2Ns6GAmVlg9E/RVVseg81W4cU7ZZSmVADQeUaECJBbKhN358xt7ncRbUFKTYn9MfiuYHD8b8/qaMXv+u0r3h1zt2rntUAZwxGnQAAHC2lG3deYue/9s7Nv66qKKie1a+emJdr9+zutq7+lhfxWeq/LmdMgjeQHYNyiIeNRLw9EYCnqdj+cFVLV35j+9o23Ovgue4YUNOBAAAAA4daxctW7Dy5//0YXVl1671FWbltTV5V5xYGlpUU+xrqJARW0BTlWwoJkJDGMt1bY8GPU8e6A3c90LH7vs6u1oQQx9naNABAMDxtm3a0Ljqb5fe+l9VJ7dtaV1+QWPxB45piM3MpKDnSoRciXpznugJ3P1KZ/9Du1r3dSgwanRyBwCAie156fv1q+69t+Pc4rmbl9Rpr1lU6zmxqsx3Qk2xr0ZBg84S5aawJ/LMvsLAqme3B9b19O59WYER0aADAMBItrz0g4YVP/7FD5YvavjeKQ3qOydW+E6pyg+sQcSeDRQlFtb0J/cGfb/f2pd/3+a2cCsC4zToAAAwkm1vfrWh+b7fP37y/Lwfn9xgXtaQ55uJRXGykqYoT7TnBn6zpz/y8KbW4DMIDNGgAwDAkLbXflu/7Fc/++MHT9W/f9LM3M+cWBdYgR7sWUVRYpuhPfho0LdjS9vAswgc0aADAMBQtr3xjYYV9z/w8OWnah8/u9G4bHqxb4kCWUmqfsuA+fv1PfHb97fp2xA4okEHAICX21n8zYa1v/vt/W9ebX7hfSebX5rndSFnZD9aH57W4v75T7fHVu9sDb+AwHBo0AEAYLCuHV+vP+3B79//ocXGr65ZGHh9WYHHj8Kx3KLIKv1b+qPf+tUrg5sR2IYGHQAAxrPntR81XPjAH++/7XT9a2+YmfverEJvAwLXU5RYC39/9TXBz6xrDW5FYAIadAAAOBp44Hu1Zz7wz/u/9tZZxq/es8j/JgSukYr+37s+G/zNjvZgFwInQIMOAAAjCrXdd1rF6ffd/+6F+t+vWeQ/G4ErKYpi6MqPuuTv+8M/M5SwAhNGgw4AAGMJPHnT0rk3fe8ntzUq33rzycZFaMzBUZTfbs7/6k92xf+MwAANOgAAjDXwo39umH/jvT+8Ybb6V1ceZ7wFgWthyC6ANOgAAOAgoD7z4Fn5Z/34I6Xe7565MH8VAhdS8C0BaRgUBwAAYNptf/O+xvf+43e//uh8z6/fscj8xLR8PW8fJ7gJ/tJBqh4Y9Iw/qO/pjJ0DYDto0AEAwMn2N+9suPLR39594Qz9N+9dEnhvVYGv2qFrOXM9v3LTX/Wru0KnAdgKGnQAAHC2/Y27Gl/3xN039gbT/zR3/LO+zv+VXHfGa3q+b5XTn0SDMC1fv/vRk85vRGAbaNABACAVtnz37Prll995+0Vl+n0t07y3uDWwXZ/r+Yd5VeYlTvdxoaEn+tbFi/NOBLANNOgAAJAq2558oPnGP371BycU6I8cqM3/WGW+V+Ps/dIw9c+X/X3RjQi2gQYdAABSaXNr30XXPvnjy+YU6o/smub/bG2xb4Ezd8JuZ+Urr3vf3sFOBNvA70UAAGRSbP/fmhZ/84PnV+f+x+7pvvfXl3inO/FN0KE9u6FBBwAAW+ja+6mmS+796W11qv79ixvNTzTme0sU5yvN94b/78KGoAdxdABbwC93AABkU3jrj+qXfvdbdx7X4P/VpirvdScU+uY5cxtd/b4/nH98EUI5aDABAMBuBl7+Zf3J99x4/2ln5d397mONj9SVeDsU5zroXVPgve6O95g9CA5Hgw4AAHa0962Hmq6876d3fmiu/q1L5+mfWVzlnenAd0CDnv1Q5Q4AAHbVt/buxo89+J93V+jK9y+cqb+3usib77jtYMiegAYdAAAcYGDd/Y2X/PGH/15u9v/wqka1pbHU1+SgzfOgC7uzHxp0AABwiu4Nv6pb/q0vf23ucYWPfWix/r4ZJb5a5TgFfukj+qFBBwAABwk88+3mc/5p1TNv2+H9z9Oe/MbSWUXeg7/yUfUwttCgAwCAwxh7vrd8yT+s6vmf+nVK/x2Flzwy05/3+bwcDw17FkODDgAATqXsePj8M0/74u05Pf7IY00rTl4+p/R4Rcmbmh73CxUloShgO/hpCQAAjvf8f1++6q0ffuWVM8+es+3fL156wv4B/dwT6+e+lZ/Y+f6A76PXvg3XlmcnNOgAAOAWHQ8+esFvfvfv/3PTpRe/54sffPuV3/r4uXXd4T++c+kJ96pzbll5bPGRbOBpWn+0b+qAMdP0mzUAfskBAIDrxPvN8oMHlFJfuO+rV5z2hT+/+uMfXPbQ0lnF9+o56nRD1fMO+Xx9/qJS3byvqtJYTlXv6g/7t3RFDxR6Y/Nv+Av+0AeHokEHAAA3S8S1utZt0eo9+6OzO/uUpXkhr9f0GIt8Xn9VoS+vsjC3oCjPyPNonPq7P+zbtLcn3tE1ENnbPhDZZyhKV0c4NrA1Flu7fZfpgxcxH90N8FsJAACzB5Vk/JQaXw+pL9RvQG/AqI/OyMsL+D1KQdCTU1LkzfPnqBpnyNNjUfMgrUUxFeUl/dcL+1dH22KdOwaiL72yO/TcP/9B/TwQ+0ODDgAAYNM8eF/NbJ03vdmfS22x6t0+JdATMf+BwAA06AAA8HKmnqumvlSTlLV0W8xSg74I08u0aN22iL5t4sddx8V1GaBBBwCAqZYKyE6u7b11U0vvCwBpxugPAABMFU1RnL7kDWApNOgAADDVUoGeCvRvI0wjGnQAAJgqqUD/Nq73T53UcF0EvxQBAGCKHQr09a//D/6pn2q0n8j+D3b+2EeQAgCAqUIhr5TXySnfB0jFlQb5dh3igAYdAACmWmoMelGdnPp9gBSkILW/i2s66GAxPiEAAJhyqUAv9EutOkkB9p/aX8Y1HezFZwMAAKZNqpe7oyewg60wxQ4AAGzmoEBPBtg/AgeJBkQbQwMCAACmlKooR4w5d1RDni0oaFRgT+LTAAAAUy0d6OiVnj5o0AFsCg06AABMOQ9NvUCq0XQ7gE2hQQcAgLTQkGr3EX4JzGLoQw0AAOmAoLpKOurRJR2QZgcAAJh6HnLj0N1x/Fhk/+OgtwvQtc3+P1cgBfBJAAAAU001knPpbHrdgRRVU/qiygbFQvySgRTAJwQAANKGGvRMUvR4LPhEY6y4Vj+xSl/sU7VAIU1Dx6MsxJbQ+gwAALPe9re+0Hzzz9WvXNXg/+Qxdfo7Zzf4TqnMD9QqiieXwnp6UdT/XVEOLDyh/8qvvl+p9u9RYFqhQQcAgNnuVOX1p/1tx5lVefp/HVdrfKKx1HdmXYmvqTzfW1Lg0+Qf5xz+/Wgcfa+ivLlrbnzO3R/XG8I93M+YTmjQAQBgtlt1dv8bV51d99R//OTL37jy6v95y+LS8/0+/fXVhb4Z1QW+ORUFvvm1xd6Z5fmemvIizxmqoZ+36M8vvK8hUrXoHy9q2Bpbe3eOcheCadMgPwQAAGYzqgmPdty0fPGqf/jqyY9ff+JMj0/NefvSxgve86l//P5dv//Bv37hH+88c05eeV64p7I0VH18U2nl0lllJQtmlQVqcnUl12OY1Up+X+zP8xs/sMJ/4Uu/0k5VDA8ydPdBDToAAMxqihKLec7d9+rP1u/vj/zHshPvPr0sEb9oWplv6crZpW88qa54WVVhYHZpMLe+2J9TofujczUfLeU76LXUz/V4Tz+lfsnHKvO/snP5W8PQQ+eaLxywOwwjBACYbT72eVvUQ6Y5g1gPbQ1+/c32+IPb9nYeWL5o9elVBcZZJxR65qyoK15Rle+vn1MWWFJZ6K8J+nLmBpUcec1USF2wHgAAgKkWVXV/x/Rlf3r+D//vJyc/+X9u/J8ffuG8n7/n3MdOqg/MqCr0+5JxceqJz6FDAEIrAQAAYOo9fU1vTWHFe5e8Y3X3vB8tr6j+6bWLKi9bXuedV+HP0VRDP+xRz4FuQS39ry5i6AAAAJh6iZh21vprJvR6f2zhZzd+LTj/vCX3HVuVU1vszwlScZ4KcR3TqVMfDToAAMCUS8XRk3ULk7F0xfD88Qtv/qffHPjudbf/7l/uvfDCc2cu8OqeJZR51+i5maDQxAkAAEy5VLh8OtAnEu9mJGZcc/OX6zc//PTdb3vL3T//8WeuqOsPdk+HGB0AAAA2kfXhaXqeZ+Xy1c1/fGjtLW84s+jxj15w82efXfetqdhXtOkAAABpQrFyvWfevNi+v/3m0/t+d+HZv/rVv33phTPmnDxv2t6bJmfqto2AeQAAgCnnoNuacrWBlrN+se2Wj39y9h/fctsHnvj5l8tPnLcgHe9BHToAAMA0m+ypV+j1+kBi/sVf2PD9R5544pLWR+979/XXX3980JdX42TL0aADAABMM4rTF3hp9Tl9+9X1b/nqZ9tf+MPP3/6R19/+s1/e/4Y/XnvFyXPr65c42R806AAAANPMSXc7y/P7Zlz+5hVfXFLX/PU1j3/pAx/44+Mfe9stP/rdV+75zCeum++w/aD9YLB/AAAAwGZSgf6+/pzVj37kvW+ZEe5fs+yOexf+7Xe/P/WL1xxXPv7toEEHAACwCYrpN5ZFr37u+Xe9e+FtzS3nrFlw11N/+Zf3lR+/wNvg9P1Agw4AAGATqcBvjJ+zPtrzmc+8Zf5+T+K2+j/94Udf+cBJLy7wHOfk/eCWqwAAADazalH0oqcfPP+cJ/a85w2Vv3zy+1fOPfWZBQv8YafvDTW2AAAANpSK/bdG5t/xzFU3b/ru7/9z8Yeveu/F/zU/N8c+xXGTxz1XAQAAMoAa/c8szH/bb3/63J/+dPE5n3rgo3fdce2X3vAjf466fGoWlIk29KkDAACQIYmYseJff/HWC5p1/ZP//Jsfv/Odjz/2tlsuef+7Tnj/j+flVNl9j2jQAQAAMkQxlNMW5L/vh/d/7r5///p3L/nm+W+77uO/uftfrn7PTz/S6GvwlKJFfxkFAAAAAKaUb/nXV+Zc/aMrd7x1xfrv/O5//t+v7rnjZ9/7j+ve/uTnL5nz2Xcs1hb6SnO86JVvE7SPAAAAgLRJxPW3x/sjp+wd6A0s23PA/NHevftXdXTFutZt0v1Lf+L/4ruvKPkvfd1pZXqDT1FyKSBP9bNrjA4AAABpkuNPfL7QM6M3FH5rfTTx8yuW/feJzy45I/+H19T4aot86ZvOhgYdAAAgTTRVjc0szPmK7m3cF1c++aetfy/8we8u/ZLtA/xERw/vAAAAGZCYUeCf/eqe+HWrdzUtBodBDTMAAECGxGPeE/LD5vct9jAcGnQAAIAMUY1Yzv4e2/xTzi5o0AEAADLEULTCyiKP/brW2QkadAAAgAwxdKW6pji3UBVPGEH22KBvCQAAABnmUSKv+SN1+U8c3qC/eKN5IQAAAKSVRy0vPDCQuy4azZuPSUc+hwYdAAAg/VRd17+n6r65CPZMNgAAAOyiwO/58oVnKJ4z/kW7FgEAADLE51VzyoqMf/YpkRwEaT6/cr4CAACQOR7Vt+TvL/IVIUjzoEEHAADIML9Xm1nk9x1IxdHTvP8IAAAAHMGrKP6gT+sqK/C0p3v/EQAAADhCLsX0a4u8+yIdX1UAdYwAAABZxOtVZuTnemKJWM5c5KwDAABkj2K/x7ewojC/PxErRJDmR4MOAACQJSjGPqfe/04EaX406AAAAFnkrcf7b0SQ5vf/B3Zq+/kp+TJ6AAAAAElFTkSuQmCC" alt="Logo TEIDESAT">
+            <img src="Logo TEIDESAT - Blanco sobre transparente.png" alt="Logo TEIDESAT">
         </div>
         
         <h1>¿Crees que eres mejor que los ingenieros de la NASA?</h1>
@@ -347,7 +339,6 @@
         const listaRanking = document.getElementById('listaRanking');
         const btnReiniciarRanking = document.getElementById('btnReiniciarRanking');
 
-        // Cargar datos guardados al iniciar
         function cargarDatos() {
             const datosGuardados = localStorage.getItem('participantes');
             if (datosGuardados) {
@@ -356,7 +347,6 @@
             }
         }
 
-        // Guardar datos en localStorage
         function guardarDatos() {
             localStorage.setItem('participantes', JSON.stringify(participantes));
         }
@@ -504,7 +494,6 @@
             }
         });
 
-        // Cargar datos al iniciar la página
         cargarDatos();
     </script>
 </body>
